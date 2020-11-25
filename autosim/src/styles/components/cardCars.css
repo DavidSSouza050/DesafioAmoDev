@@ -1,0 +1,72 @@
+
+.card{
+    /*Card crescendo automático*/
+    width: 300px;
+    height: auto;
+    min-height: 270px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.card-image{
+    width: inherit;
+    height: 200px;
+}
+
+.card-image > img{
+    width: 100%;
+    height: inherit;
+    border-radius: 5px 5px 0px 0px;
+}
+.name-car{
+    width: 100%;
+    color: gray;
+    font:800 14px Nunito, sans-serif;
+    margin-left: 5px;
+}
+
+.properties{
+    width: 65%;
+    min-height: 50px;
+    height: auto;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+.border-right{
+    border-right:solid 2px rgb(145, 145, 145) ;
+}
+.properties-detail{
+    width: auto;
+    height: auto;
+    min-height: 15px;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    box-sizing: border-box;
+
+    font:600 14px Nunito, sans-serif;
+    color: rgb(139, 150, 202);
+}
+
+
+.price{
+    width: 35%;
+    min-height: 50px;
+    height: auto;
+    float: left;
+    font:700 14px Nunito, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.price > span{
+    font-size: 18px;
+    color: rgb(225, 106, 66);
+    font-weight: 900;
+}
